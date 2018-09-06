@@ -10,19 +10,19 @@ import {
 
 const items = [
   {
-    src: 'https://via.placeholder.com/1600x500',
+    src: 'http://placekitten.com/g/1600/500',
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: 'Slide 1',
   },
   {
-    src: 'https://via.placeholder.com/1600x500',
+    src: 'http://placekitten.com/g/1600/500',
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Slide 2',
   },
   {
-    src: 'https://via.placeholder.com/1600x500',
+    src: 'http://placekitten.com/g/1600/500',
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Slide 3',
   }
 ];
 
@@ -78,7 +78,7 @@ class Carsl extends Component {
       );
     });
 
-    return (
+    return (      
       <Carousel
         activeIndex={activeIndex}
         next={this.next}
@@ -88,7 +88,7 @@ class Carsl extends Component {
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
+      </Carousel>      
     );
   }
 }

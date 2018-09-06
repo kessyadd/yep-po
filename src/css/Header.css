@@ -1,10 +1,10 @@
 .Nvbr {
-  background-color: #faf7f8;
-  
+  background: -webkit-linear-gradient(90deg, #d57fe0 0%, #05abe0 100%);
+  background: linear-gradient(90deg, #d57fe0 0%,#05abe0 100%);  
 } 
 
 .NvBrnd {
-  color: #bbc1ff!important;
+  color: white!important;
   font-family: 'Baloo Tammudu', cursive;
   font-size: 25px!important;
   padding-bottom: 0px!important;

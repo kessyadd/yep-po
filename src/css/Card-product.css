@@ -1,0 +1,19 @@
+.cardProduct {
+  border: none!important
+}
+
+.cardProduct a {
+  color: black;
+}
+
+.cardProduct a:hover {
+  text-decoration: none;
+  color: #bbc1ff;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 0!important;
+}

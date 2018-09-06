@@ -29,8 +29,8 @@ export class Header extends Component {
   }
   render() {
     return (
-      <div>
-        <Navbar className="Nvbr" light expand="md">
+      <div className="mb-5">
+        <Navbar className="Nvbr fixed-top" light expand="md">
           <NavbarBrand className="NvBrnd" href="/">yep-po!</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
