@@ -5,6 +5,7 @@ import Header from './../components/Header.js';
 import Crsl from './../components/Carousel.js';
 import CardSquare from './../components/Card-square.js';
 import CardProduct from './../components/Card-product.js';
+import CarouselIdol from './../components/Carousel-idol.js';
 
 const category = [
   {
@@ -99,7 +100,7 @@ class Home extends Component {
           <Col className="offset-1 col-lg-10 col-md-10 col-10 pt-5">
             <h3 className="text-left fontH3" style={{color: '#05abe0'}}>Idols</h3>
             <Row>
-              {}
+              <CarouselIdol/>
             </Row>
           </Col>
       </div>
