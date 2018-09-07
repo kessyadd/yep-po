@@ -1,14 +1,56 @@
+.card-font {
+  font-family: 'News Cycle', sans-serif;
+}
+
+.card-font-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card-font-desc {
+  font-size: 14px;
+}
+
 .cardProduct {
   border: none!important
 }
 
 .cardProduct a {
-  color: black;
+  color: #2f303f;
+}
+
+.hovereffect-2 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.cardProduct .overlay-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect-2:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=40);
 }
 
 .cardProduct a:hover {
   text-decoration: none;
   color: #bbc1ff;
+  box-shadow: 1px 1px 8px  #bbc1ff;
+}
+
+.cardProduct:hover .overlay-2 {
+  cursor: pointer;
 }
 
 .card-img-top {

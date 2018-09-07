@@ -27,7 +27,7 @@ transition:all .4s linear;
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
+  opacity: 0.5;
   filter: alpha(opacity=40);
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);

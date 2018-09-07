@@ -99,9 +99,7 @@ class Home extends Component {
           </Col>
           <Col className="offset-1 col-lg-10 col-md-10 col-10 pt-5">
             <h3 className="text-left fontH3" style={{color: '#05abe0'}}>Idols</h3>
-            <Row>
               <CarouselIdol/>
-            </Row>
           </Col>
       </div>
     )
